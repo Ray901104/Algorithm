@@ -58,7 +58,7 @@ namespace Algorithm
         // 동적배열 : 크기 변경 가능(중간 삽입/삭제 불가)
         public MyList<int> _data2 = new MyList<int>();
 
-        // 연결리스트 : 크기 변경 및 중간 삽입/삭제 가능
+        // 연결리스트 : 크기 변경 및 중간 삽입/삭제 가능, index 지원안함
         public LinkedList<int> _data3 = new LinkedList<int>();
 
         public void Initialize()

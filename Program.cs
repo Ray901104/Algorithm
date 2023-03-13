@@ -6,8 +6,11 @@ namespace Algorithm
     {
         static void Main(string[] args)
         {
-            Board board = new Board();
-            board.Initialize();
+            //Board board = new Board();
+            //board.Initialize();
+
+            Board2 board2 = new Board2();
+            board2.Initialize();
 
             // 콘솔창 꾸미기
             Console.CursorVisible = false;
